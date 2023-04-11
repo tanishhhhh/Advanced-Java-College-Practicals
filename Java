@@ -1,6 +1,7 @@
- Jsp Program to show Date and Time 
+                                                                 Jsp Program to show Date and Time 
  
-  <%@ page import="java.util.Date" %>
+
+<%@ page import="java.util.Date" %>
 
     
     
@@ -25,10 +26,16 @@
 </html>
 
 
+                                                               Servlet to show date and time 
+							       
+   (Enter in try block only)
+   java.util.Date date = new java.util.Date();
+            out.println("<h2> Current Date and Time is : " + date.toString() + "</h2>");
 
-
-
-Cookies
+                                                                            
+									    
+									    
+									    Cookies
 
 import java.io.*;
 import javax.servlet.*;
@@ -88,7 +95,7 @@ public void doPost(HttpServletRequest request, HttpServletResponse response){
 }
 
 
- Jdbc Displayyy data
+                                                                         Jdbc Displayyy data
  
 package javaapplication1;
 
@@ -124,7 +131,7 @@ public class javaapplication1 {
 
 
 
-Jdbc Insert dataaaa
+                                                                      Jdbc Insert dataaaa
 
 
 
