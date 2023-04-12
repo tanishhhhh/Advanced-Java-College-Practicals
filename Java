@@ -37,6 +37,15 @@
 									    
 									    Cookies
 
+
+Index.html
+
+<form action="servlet1" method="post">
+Name:<input type="text" name="userName"/><br/>
+<input type="submit" value="go"/>
+</form>
+
+
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
